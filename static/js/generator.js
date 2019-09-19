@@ -1,3 +1,3 @@
 function generates(){
-	document.getElementById("fillName").innerHTML = "document.fillForm.name.value";
+    document.getElementById("fillName").innerHTML = document.querySelector('#fillForm [name="name"]').value;
 }
