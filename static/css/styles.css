@@ -1,0 +1,119 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-size: 17px;
+}
+
+#header {
+	overflow: hidden;
+	background-color: #033354;
+	color: #fff;
+	text-align: center;
+	padding: 80px;
+	position: absolute;
+  	left: 0;
+  	top: 0;
+  	right: 0;
+}
+
+#descriptions {
+	background: #e8e8e8; 
+	margin-bottom: 20px;
+	position: absolute;
+  	left: 0;
+  	top: 0;
+  	right: 0;
+  	margin-top: 240px;
+}
+
+#content {
+	margin-top: 370px;
+}
+
+button{
+  background:#033354;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:30px;
+  font-size:1em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  margin: 10px;
+}
+button:hover{
+  background:#fff;
+  color:#033354;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #033354;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+label {
+	margin: 10px;
+}
+
+input {
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	margin-left: 25px;
+  	box-sizing: border-box;
+}
+
+input:focus {
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	margin-left: 25px;
+  	box-sizing: border-box;
+  	border: 3px solid #555;
+}
+
+td {
+	margin: 2%;
+	font-size: 12px;
+}
+
+#fillName {
+	font-size: 15px;
+}
+
+#fillPosition {
+  color: #033354;
+}
+
+#utsc {
+  font-style: italic;
+}
+
+#linkedinIcon {
+	width: 25px;
+	height: 25px;
+}
+
+#logo {
+	width: 120px;
+	height: 120px;
+ 	border-radius: 50%;
+ 	margin: 10px;
+}
