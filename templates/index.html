@@ -44,16 +44,16 @@
 			<label for="linkedinURL">Linkedin profile URL</label>
 			<input type="text" name="linkedinURL" placeholder="https://www.linkedin.com/in/daniela-venturo-esaine/" required>
 		</div>
-		<button onclick="generates()">Submitt</button>
 	</form>
+	<button onclick="generates()">Submit</button>
 </div>
 
 <div id="generated">
 	<div id="signatureHead">
-		<div id="fillName"><br> Full Name </br></div>
-		<br id="fillPosition"> Position </br>
+		<div id="fillName"><br> Jose Arriola </br></div>
+		<div id="fillPosition"><br> President of the SSO </br></div>
 		<br> University of Toronto Scarborough </br>
-		<br id="fillPhone"> (437) 228-3100</br>
+		<div id="fillPhone"><br> (654) 733-7487 </br></div>
 	</div>
 	<div id="linkedinIcon">
 		<a id="fillLink" href="https://www.linkedin.com/in/daniela-venturo-esaine/" target="_blank">
@@ -66,7 +66,7 @@
 
 </div>
 
-<script src="{{ url_for('static', filename='js/generator.js') }}"</script>
+<script src="{{ url_for('static', filename='js/generator.js') }}"></script>
 
 </body>
 </html>
